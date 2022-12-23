@@ -10,19 +10,23 @@ import './index.scss'
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
-  const nameArray = ['l', 'o', 'b', 'o', 'd', 'a', 'n']
+  const nameArray = [' ', 'Y', 'o', 'u', ' ', 'L', 'y', 'u']
   const jobArray = [
-    'w',
-    'e',
-    'b',
-    ' ',
-    'd',
-    'e',
-    'v',
-    'e',
-    'l',
+    's',
     'o',
-    'p',
+    'f',
+    't',
+    'w',
+    'a',
+    'r',
+    'e',
+    ' ',
+    'e',
+    'n',
+    'g',
+    'i',
+    'n',
+    'e',
     'e',
     'r',
     '.',
@@ -44,10 +48,10 @@ const Home = () => {
             <br />
             <span className={`${letterClass} _13`}>I</span>
             <span className={`${letterClass} _14`}>'m</span>
-            <img
+            {/* <img
               src={LogoTitle}
               alt="JavaScript Developer Name, Web Developer Name"
-            />
+            /> */}
             <AnimatedLetters
               letterClass={letterClass}
               strArray={nameArray}
@@ -60,7 +64,10 @@ const Home = () => {
               idx={22}
             />
           </h1>
-          <h2>Front End Developer / JavaScript Expert / Youtuber</h2>
+          <h2>B.S. in Statistics and Computer Science at the University of Illinois at Urbana Champaign</h2>
+          <Link href="https://drive.google.com/file/d/1-aiKPTV7Yy6hTqPUGDdWAeJojXl10UeN/view?usp=sharing" className="flat-button"> 
+            My Resume
+          </Link>
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>
