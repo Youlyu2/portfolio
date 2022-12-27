@@ -2,8 +2,7 @@ import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
-import LogoTitle from '../../assets/images/logo-s.png'
-//import LogoTitle from '../../assets/images/home_pic_s.jpg'
+
 import Logo from './Logo'
 import './index.scss'
 
@@ -48,10 +47,7 @@ const Home = () => {
             <br />
             <span className={`${letterClass} _13`}>I</span>
             <span className={`${letterClass} _14`}>'m</span>
-            {/* <img
-              src={LogoTitle}
-              alt="JavaScript Developer Name, Web Developer Name"
-            /> */}
+           
             <AnimatedLetters
               letterClass={letterClass}
               strArray={nameArray}
@@ -61,16 +57,16 @@ const Home = () => {
             <AnimatedLetters
               letterClass={letterClass}
               strArray={jobArray}
-              idx={22}
+              idx={18}
             />
           </h1>
-          <h2>B.S. in Statistics and Computer Science at the University of Illinois at Urbana Champaign</h2>
-          <Link href="https://drive.google.com/file/d/1-aiKPTV7Yy6hTqPUGDdWAeJojXl10UeN/view?usp=sharing" className="flat-button"> 
+          <h2>B.S. in Statistics and Computer Science <br />at the University of Illinois at Urbana Champaign</h2>
+          <a href="https://drive.google.com/file/d/1-aiKPTV7Yy6hTqPUGDdWAeJojXl10UeN/view?usp=sharing" className="flat-button"> 
             My Resume
-          </Link>
-          <Link to="/contact" className="flat-button">
+          </a>
+          {/* <Link to="/contact" className="flat-button">
             CONTACT ME
-          </Link>
+          </Link> */}
         </div>
         <Logo />
       </div>
