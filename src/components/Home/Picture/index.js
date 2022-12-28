@@ -2,7 +2,7 @@ import { useEffect, useRef } from 'react'
 import LogoS from '../../../assets/images/home_pic.JPG'
 import './index.scss'
 
-const Logo = () => {
+const HomePicture = () => {
 
   return (
     <div className="logo-container">
@@ -15,4 +15,4 @@ const Logo = () => {
   )
 }
 
-export default Logo
+export default HomePicture
