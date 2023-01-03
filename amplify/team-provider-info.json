@@ -10,6 +10,11 @@
       "StackName": "amplify-reactportfolio-dev-44727",
       "StackId": "arn:aws:cloudformation:us-east-1:011662681789:stack/amplify-reactportfolio-dev-44727/068bb500-869d-11ed-9c88-12484d2aa231",
       "AmplifyAppId": "d28rbecpdav935"
+    },
+    "categories": {
+      "auth": {
+        "reactportfolio703c977b": {}
+      }
     }
   }
 }

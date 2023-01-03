@@ -69,7 +69,7 @@ const Home = () => {
           </Link> */}
         </div>
         <Logo />
-        <ChatWidget />
+        {/* <ChatWidget /> */}
       </div>
 
       <Loader type="pacman" />
